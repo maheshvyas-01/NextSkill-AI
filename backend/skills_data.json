@@ -1,0 +1,758 @@
+{
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python",
+      "domain": "programming",
+      "demand_score": 92,
+      "growth_rate": 8,
+      "avg_salary_lpa": 12,
+      "job_count_india": 45000,
+      "difficulty": "medium",
+      "learn_weeks": 8,
+      "adjacency": ["data-science", "machine-learning", "scikit-learn", "pandas"],
+      "roles": ["data-scientist", "backend-developer", "ml-engineer"],
+      "job_readiness_boost": 28,
+      "free_courses": [
+        {"title": "Python for Everybody", "platform": "Coursera", "url": "https://www.coursera.org/specializations/python", "is_free": true},
+        {"title": "Python Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=rfscVS0vtbw", "is_free": true}
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "domain": "programming",
+      "demand_score": 90,
+      "growth_rate": 5,
+      "avg_salary_lpa": 10,
+      "job_count_india": 50000,
+      "difficulty": "easy",
+      "learn_weeks": 6,
+      "adjacency": ["react", "nodejs", "typescript"],
+      "roles": ["frontend-developer", "full-stack-developer"],
+      "job_readiness_boost": 26,
+      "free_courses": [
+        {"title": "JavaScript Algorithms and Data Structures", "platform": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", "is_free": true},
+        {"title": "JavaScript Full Course", "platform": "YouTube (Traversy Media)", "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c", "is_free": true}
+      ]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "domain": "frontend",
+      "demand_score": 85,
+      "growth_rate": 4,
+      "avg_salary_lpa": 12,
+      "job_count_india": 40000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["javascript", "typescript"],
+      "roles": ["frontend-developer", "full-stack-developer"],
+      "job_readiness_boost": 24,
+      "free_courses": [
+        {"title": "React Official Tutorial", "platform": "React Docs", "url": "https://react.dev/learn", "is_free": true},
+        {"title": "React Full Course 2024", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=bMknfKXIFA8", "is_free": true}
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "domain": "backend",
+      "demand_score": 82,
+      "growth_rate": 5,
+      "avg_salary_lpa": 11,
+      "job_count_india": 35000,
+      "difficulty": "medium",
+      "learn_weeks": 7,
+      "adjacency": ["javascript", "rest-api", "mongodb"],
+      "roles": ["backend-developer", "full-stack-developer"],
+      "job_readiness_boost": 22,
+      "free_courses": [
+        {"title": "Node.js Tutorial for Beginners", "platform": "YouTube (Programming with Mosh)", "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4", "is_free": true},
+        {"title": "The Odin Project — NodeJS", "platform": "The Odin Project", "url": "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs", "is_free": true}
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "domain": "programming",
+      "demand_score": 88,
+      "growth_rate": 2,
+      "avg_salary_lpa": 11,
+      "job_count_india": 42000,
+      "difficulty": "medium",
+      "learn_weeks": 10,
+      "adjacency": ["spring-boot", "system-design"],
+      "roles": ["backend-developer", "software-engineer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "Java Programming MOOC", "platform": "University of Helsinki", "url": "https://java-programming.mooc.fi/", "is_free": true},
+        {"title": "Java Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=grEKMHGYyns", "is_free": true}
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "domain": "backend",
+      "demand_score": 80,
+      "growth_rate": 3,
+      "avg_salary_lpa": 13,
+      "job_count_india": 30000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["java", "microservices"],
+      "roles": ["backend-developer"],
+      "job_readiness_boost": 18,
+      "free_courses": [
+        {"title": "Spring Boot Tutorial", "platform": "YouTube (Amigoscode)", "url": "https://www.youtube.com/watch?v=9SGDpanrc8U", "is_free": true},
+        {"title": "Spring Framework Official Guides", "platform": "Spring.io", "url": "https://spring.io/guides", "is_free": true}
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "domain": "database",
+      "demand_score": 90,
+      "growth_rate": 3,
+      "avg_salary_lpa": 9,
+      "job_count_india": 50000,
+      "difficulty": "easy",
+      "learn_weeks": 4,
+      "adjacency": ["postgresql", "data-science"],
+      "roles": ["data-analyst", "data-scientist", "backend-developer"],
+      "job_readiness_boost": 25,
+      "free_courses": [
+        {"title": "SQL for Data Science", "platform": "Coursera (UC Davis)", "url": "https://www.coursera.org/learn/sql-for-data-science", "is_free": true},
+        {"title": "SQL Tutorial Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY", "is_free": true}
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "domain": "database",
+      "demand_score": 78,
+      "growth_rate": 4,
+      "avg_salary_lpa": 10,
+      "job_count_india": 25000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["sql"],
+      "roles": ["backend-developer", "data-analyst"],
+      "job_readiness_boost": 16,
+      "free_courses": [
+        {"title": "PostgreSQL Tutorial", "platform": "PostgreSQL Official", "url": "https://www.postgresql.org/docs/current/tutorial.html", "is_free": true},
+        {"title": "Learn PostgreSQL", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=qw--VYLpxG4", "is_free": true}
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "domain": "database",
+      "demand_score": 75,
+      "growth_rate": 3,
+      "avg_salary_lpa": 10,
+      "job_count_india": 23000,
+      "difficulty": "easy",
+      "learn_weeks": 4,
+      "adjacency": ["nodejs"],
+      "roles": ["backend-developer", "full-stack-developer"],
+      "job_readiness_boost": 15,
+      "free_courses": [
+        {"title": "MongoDB University — M001", "platform": "MongoDB University", "url": "https://learn.mongodb.com/learning-paths/introduction-to-mongodb", "is_free": true},
+        {"title": "MongoDB Crash Course", "platform": "YouTube (Traversy Media)", "url": "https://www.youtube.com/watch?v=-56x56UppqQ", "is_free": true}
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "domain": "devops",
+      "demand_score": 82,
+      "growth_rate": 6,
+      "avg_salary_lpa": 14,
+      "job_count_india": 28000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["kubernetes", "ci-cd", "microservices"],
+      "roles": ["devops-engineer", "cloud-architect", "backend-developer"],
+      "job_readiness_boost": 22,
+      "free_courses": [
+        {"title": "Docker Tutorial for Beginners", "platform": "YouTube (TechWorld with Nana)", "url": "https://www.youtube.com/watch?v=3c-iBn73dDE", "is_free": true},
+        {"title": "Docker Official Get Started", "platform": "Docker Docs", "url": "https://docs.docker.com/get-started/", "is_free": true}
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "domain": "devops",
+      "demand_score": 78,
+      "growth_rate": 7,
+      "avg_salary_lpa": 18,
+      "job_count_india": 22000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["docker"],
+      "roles": ["devops-engineer", "cloud-architect"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "Kubernetes Tutorial for Beginners", "platform": "YouTube (TechWorld with Nana)", "url": "https://www.youtube.com/watch?v=X48VuDVv0do", "is_free": true},
+        {"title": "Kubernetes Basics", "platform": "Kubernetes Official", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "is_free": true}
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "domain": "cloud",
+      "demand_score": 90,
+      "growth_rate": 6,
+      "avg_salary_lpa": 18,
+      "job_count_india": 40000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["docker", "cloud-architect"],
+      "roles": ["cloud-architect", "devops-engineer"],
+      "job_readiness_boost": 26,
+      "free_courses": [
+        {"title": "AWS Cloud Practitioner Essentials", "platform": "AWS Training", "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/", "is_free": true},
+        {"title": "AWS Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=ZB5ONbD_SMY", "is_free": true}
+      ]
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "domain": "cloud",
+      "demand_score": 75,
+      "growth_rate": 5,
+      "avg_salary_lpa": 16,
+      "job_count_india": 20000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["docker"],
+      "roles": ["cloud-architect"],
+      "job_readiness_boost": 18,
+      "free_courses": [
+        {"title": "Microsoft Azure Fundamentals", "platform": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/", "is_free": true},
+        {"title": "Azure Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=NKEFWyqJ5XA", "is_free": true}
+      ]
+    },
+    {
+      "id": "gcp",
+      "name": "GCP",
+      "domain": "cloud",
+      "demand_score": 70,
+      "growth_rate": 6,
+      "avg_salary_lpa": 17,
+      "job_count_india": 18000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["docker"],
+      "roles": ["cloud-architect"],
+      "job_readiness_boost": 16,
+      "free_courses": [
+        {"title": "Google Cloud Skills Boost", "platform": "Google Cloud", "url": "https://www.cloudskillsboost.google/", "is_free": true},
+        {"title": "GCP Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=jpno8FSqpc8", "is_free": true}
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "domain": "ai",
+      "demand_score": 88,
+      "growth_rate": 9,
+      "avg_salary_lpa": 20,
+      "job_count_india": 30000,
+      "difficulty": "hard",
+      "learn_weeks": 10,
+      "adjacency": ["python", "scikit-learn", "tensorflow", "pytorch"],
+      "roles": ["ml-engineer", "data-scientist"],
+      "job_readiness_boost": 28,
+      "free_courses": [
+        {"title": "Machine Learning Specialization", "platform": "Coursera (Andrew Ng)", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "is_free": true},
+        {"title": "ML with Python", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg", "is_free": true}
+      ]
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "domain": "ai",
+      "demand_score": 70,
+      "growth_rate": 7,
+      "avg_salary_lpa": 18,
+      "job_count_india": 15000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["machine-learning", "python"],
+      "roles": ["ml-engineer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "TensorFlow Developer Certificate", "platform": "Coursera (deeplearning.ai)", "url": "https://www.coursera.org/professional-certificates/tensorflow-in-practice", "is_free": true},
+        {"title": "TensorFlow 2.0 Complete Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk", "is_free": true}
+      ]
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "domain": "ai",
+      "demand_score": 80,
+      "growth_rate": 9,
+      "avg_salary_lpa": 20,
+      "job_count_india": 20000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["machine-learning", "python"],
+      "roles": ["ml-engineer"],
+      "job_readiness_boost": 22,
+      "free_courses": [
+        {"title": "PyTorch Official Tutorials", "platform": "PyTorch Docs", "url": "https://pytorch.org/tutorials/", "is_free": true},
+        {"title": "PyTorch for Deep Learning", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=V_xro1bcAuA", "is_free": true}
+      ]
+    },
+    {
+      "id": "scikit-learn",
+      "name": "scikit-learn",
+      "domain": "ai",
+      "demand_score": 85,
+      "growth_rate": 8,
+      "avg_salary_lpa": 16,
+      "job_count_india": 25000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["python", "machine-learning"],
+      "roles": ["data-scientist", "ml-engineer"],
+      "job_readiness_boost": 22,
+      "free_courses": [
+        {"title": "scikit-learn Official User Guide", "platform": "scikit-learn Docs", "url": "https://scikit-learn.org/stable/user_guide.html", "is_free": true},
+        {"title": "Machine Learning with scikit-learn", "platform": "YouTube (Corey Schafer)", "url": "https://www.youtube.com/watch?v=0B5eIE_1vpU", "is_free": true}
+      ]
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas",
+      "domain": "data",
+      "demand_score": 88,
+      "growth_rate": 6,
+      "avg_salary_lpa": 14,
+      "job_count_india": 30000,
+      "difficulty": "easy",
+      "learn_weeks": 4,
+      "adjacency": ["python", "numpy"],
+      "roles": ["data-analyst", "data-scientist"],
+      "job_readiness_boost": 24,
+      "free_courses": [
+        {"title": "Pandas Tutorial", "platform": "Kaggle", "url": "https://www.kaggle.com/learn/pandas", "is_free": true},
+        {"title": "Pandas Full Course", "platform": "YouTube (Keith Galli)", "url": "https://www.youtube.com/watch?v=vmEHCJofslg", "is_free": true}
+      ]
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "domain": "data",
+      "demand_score": 85,
+      "growth_rate": 6,
+      "avg_salary_lpa": 14,
+      "job_count_india": 28000,
+      "difficulty": "easy",
+      "learn_weeks": 4,
+      "adjacency": ["python", "pandas"],
+      "roles": ["data-scientist", "ml-engineer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "NumPy Tutorial", "platform": "Kaggle", "url": "https://www.kaggle.com/learn/intro-to-programming", "is_free": true},
+        {"title": "NumPy Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI", "is_free": true}
+      ]
+    },
+    {
+      "id": "rest-api",
+      "name": "REST APIs",
+      "domain": "backend",
+      "demand_score": 90,
+      "growth_rate": 4,
+      "avg_salary_lpa": 12,
+      "job_count_india": 45000,
+      "difficulty": "easy",
+      "learn_weeks": 3,
+      "adjacency": ["nodejs", "python"],
+      "roles": ["backend-developer", "full-stack-developer"],
+      "job_readiness_boost": 25,
+      "free_courses": [
+        {"title": "REST API Tutorial", "platform": "restfulapi.net", "url": "https://restfulapi.net/", "is_free": true},
+        {"title": "APIs for Beginners", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=GZvSYJDk-us", "is_free": true}
+      ]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "domain": "backend",
+      "demand_score": 65,
+      "growth_rate": 5,
+      "avg_salary_lpa": 13,
+      "job_count_india": 12000,
+      "difficulty": "medium",
+      "learn_weeks": 4,
+      "adjacency": ["rest-api", "nodejs"],
+      "roles": ["backend-developer", "full-stack-developer"],
+      "job_readiness_boost": 14,
+      "free_courses": [
+        {"title": "GraphQL Official Learn", "platform": "GraphQL.org", "url": "https://graphql.org/learn/", "is_free": true},
+        {"title": "GraphQL Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=ed8SzALpx1Q", "is_free": true}
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "domain": "tools",
+      "demand_score": 95,
+      "growth_rate": 2,
+      "avg_salary_lpa": 8,
+      "job_count_india": 60000,
+      "difficulty": "easy",
+      "learn_weeks": 2,
+      "adjacency": ["ci-cd"],
+      "roles": ["software-engineer", "backend-developer", "frontend-developer"],
+      "job_readiness_boost": 30,
+      "free_courses": [
+        {"title": "Git & GitHub Crash Course", "platform": "YouTube (Traversy Media)", "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc", "is_free": true},
+        {"title": "Pro Git Book", "platform": "git-scm.com", "url": "https://git-scm.com/book/en/v2", "is_free": true}
+      ]
+    },
+    {
+      "id": "linux",
+      "name": "Linux",
+      "domain": "system",
+      "demand_score": 85,
+      "growth_rate": 3,
+      "avg_salary_lpa": 10,
+      "job_count_india": 30000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["devops", "docker"],
+      "roles": ["devops-engineer", "software-engineer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "Linux Command Line Basics", "platform": "NPTEL", "url": "https://nptel.ac.in/courses/106105210", "is_free": true},
+        {"title": "Linux Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=sWbUDq4S6Y8", "is_free": true}
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "domain": "devops",
+      "demand_score": 88,
+      "growth_rate": 7,
+      "avg_salary_lpa": 18,
+      "job_count_india": 25000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["docker", "ci-cd", "linux"],
+      "roles": ["devops-engineer"],
+      "job_readiness_boost": 24,
+      "free_courses": [
+        {"title": "DevOps Prerequisites", "platform": "YouTube (KodeKloud)", "url": "https://www.youtube.com/watch?v=Wvf0mBNGjXY", "is_free": true},
+        {"title": "DevOps Roadmap", "platform": "roadmap.sh", "url": "https://roadmap.sh/devops", "is_free": true}
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "domain": "devops",
+      "demand_score": 82,
+      "growth_rate": 6,
+      "avg_salary_lpa": 15,
+      "job_count_india": 20000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["devops", "docker"],
+      "roles": ["devops-engineer", "backend-developer"],
+      "job_readiness_boost": 18,
+      "free_courses": [
+        {"title": "GitHub Actions Full Course", "platform": "YouTube (TechWorld with Nana)", "url": "https://www.youtube.com/watch?v=R8_veQiYBjI", "is_free": true},
+        {"title": "CI/CD with GitHub Actions", "platform": "GitHub Docs", "url": "https://docs.github.com/en/actions", "is_free": true}
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "domain": "frontend",
+      "demand_score": 80,
+      "growth_rate": 6,
+      "avg_salary_lpa": 13,
+      "job_count_india": 30000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["javascript", "react", "angular"],
+      "roles": ["frontend-developer", "full-stack-developer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "TypeScript Official Handbook", "platform": "TypeScript Docs", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "is_free": true},
+        {"title": "TypeScript Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=30LWjhZzg50", "is_free": true}
+      ]
+    },
+    {
+      "id": "vue",
+      "name": "Vue.js",
+      "domain": "frontend",
+      "demand_score": 70,
+      "growth_rate": 3,
+      "avg_salary_lpa": 11,
+      "job_count_india": 15000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["javascript"],
+      "roles": ["frontend-developer"],
+      "job_readiness_boost": 14,
+      "free_courses": [
+        {"title": "Vue.js Official Tutorial", "platform": "Vue Docs", "url": "https://vuejs.org/tutorial/", "is_free": true},
+        {"title": "Vue.js Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=FXpIoQ_rT_c", "is_free": true}
+      ]
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "domain": "frontend",
+      "demand_score": 75,
+      "growth_rate": 2,
+      "avg_salary_lpa": 12,
+      "job_count_india": 20000,
+      "difficulty": "hard",
+      "learn_weeks": 6,
+      "adjacency": ["typescript"],
+      "roles": ["frontend-developer"],
+      "job_readiness_boost": 16,
+      "free_courses": [
+        {"title": "Angular Official Tutorial — Tour of Heroes", "platform": "Angular Docs", "url": "https://angular.dev/tutorials/learn-angular", "is_free": true},
+        {"title": "Angular Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=3qBXWUpoPHo", "is_free": true}
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "domain": "mobile",
+      "demand_score": 78,
+      "growth_rate": 7,
+      "avg_salary_lpa": 12,
+      "job_count_india": 18000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["kotlin"],
+      "roles": ["android-developer"],
+      "job_readiness_boost": 18,
+      "free_courses": [
+        {"title": "Flutter Official Codelabs", "platform": "Flutter Docs", "url": "https://docs.flutter.dev/codelabs", "is_free": true},
+        {"title": "Flutter Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=VPvVD8t02U8", "is_free": true}
+      ]
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "domain": "mobile",
+      "demand_score": 70,
+      "growth_rate": 3,
+      "avg_salary_lpa": 14,
+      "job_count_india": 10000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": [],
+      "roles": ["software-engineer"],
+      "job_readiness_boost": 14,
+      "free_courses": [
+        {"title": "Swift Playgrounds", "platform": "Apple Developer", "url": "https://developer.apple.com/swift/", "is_free": true},
+        {"title": "100 Days of SwiftUI", "platform": "Hacking with Swift", "url": "https://www.hackingwithswift.com/100/swiftui", "is_free": true}
+      ]
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "domain": "mobile",
+      "demand_score": 85,
+      "growth_rate": 6,
+      "avg_salary_lpa": 14,
+      "job_count_india": 22000,
+      "difficulty": "medium",
+      "learn_weeks": 6,
+      "adjacency": ["flutter"],
+      "roles": ["android-developer"],
+      "job_readiness_boost": 20,
+      "free_courses": [
+        {"title": "Kotlin Official Koans", "platform": "JetBrains", "url": "https://play.kotlinlang.org/koans/overview", "is_free": true},
+        {"title": "Android Development with Kotlin", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=EExSSotojVI", "is_free": true}
+      ]
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "domain": "backend",
+      "demand_score": 45,
+      "growth_rate": -4,
+      "avg_salary_lpa": 6,
+      "job_count_india": 15000,
+      "difficulty": "easy",
+      "learn_weeks": 4,
+      "adjacency": ["laravel"],
+      "roles": ["backend-developer"],
+      "job_readiness_boost": 8,
+      "free_courses": [
+        {"title": "PHP Manual", "platform": "PHP Official", "url": "https://www.php.net/manual/en/", "is_free": true},
+        {"title": "PHP For Beginners", "platform": "YouTube (Traversy Media)", "url": "https://www.youtube.com/watch?v=BUCiSSyIGGU", "is_free": true}
+      ]
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "domain": "backend",
+      "demand_score": 50,
+      "growth_rate": -2,
+      "avg_salary_lpa": 7,
+      "job_count_india": 12000,
+      "difficulty": "medium",
+      "learn_weeks": 5,
+      "adjacency": ["php"],
+      "roles": ["backend-developer"],
+      "job_readiness_boost": 10,
+      "free_courses": [
+        {"title": "Laravel Official Documentation", "platform": "Laravel Docs", "url": "https://laravel.com/docs", "is_free": true},
+        {"title": "Laravel Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=MYyJ4PuL4pY", "is_free": true}
+      ]
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "domain": "programming",
+      "demand_score": 70,
+      "growth_rate": 1,
+      "avg_salary_lpa": 12,
+      "job_count_india": 20000,
+      "difficulty": "hard",
+      "learn_weeks": 10,
+      "adjacency": ["system-design"],
+      "roles": ["software-engineer"],
+      "job_readiness_boost": 16,
+      "free_courses": [
+        {"title": "C++ Tutorial for Beginners", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y", "is_free": true},
+        {"title": "Learn C++", "platform": "learncpp.com", "url": "https://www.learncpp.com/", "is_free": true}
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design",
+      "domain": "architecture",
+      "demand_score": 90,
+      "growth_rate": 6,
+      "avg_salary_lpa": 25,
+      "job_count_india": 15000,
+      "difficulty": "hard",
+      "learn_weeks": 10,
+      "adjacency": ["microservices", "docker"],
+      "roles": ["software-engineer", "cloud-architect"],
+      "job_readiness_boost": 28,
+      "free_courses": [
+        {"title": "System Design Primer", "platform": "GitHub", "url": "https://github.com/donnemartin/system-design-primer", "is_free": true},
+        {"title": "System Design for Beginners", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=m8Icp_Cid5o", "is_free": true}
+      ]
+    },
+    {
+      "id": "microservices",
+      "name": "Microservices",
+      "domain": "architecture",
+      "demand_score": 85,
+      "growth_rate": 5,
+      "avg_salary_lpa": 20,
+      "job_count_india": 18000,
+      "difficulty": "hard",
+      "learn_weeks": 8,
+      "adjacency": ["docker", "spring-boot"],
+      "roles": ["backend-developer", "software-engineer"],
+      "job_readiness_boost": 22,
+      "free_courses": [
+        {"title": "Microservices with Node.js", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ", "is_free": true},
+        {"title": "Microservices Architecture", "platform": "Martin Fowler", "url": "https://martinfowler.com/articles/microservices.html", "is_free": true}
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "domain": "database",
+      "demand_score": 78,
+      "growth_rate": 4,
+      "avg_salary_lpa": 14,
+      "job_count_india": 17000,
+      "difficulty": "medium",
+      "learn_weeks": 4,
+      "adjacency": ["nodejs", "python"],
+      "roles": ["backend-developer"],
+      "job_readiness_boost": 16,
+      "free_courses": [
+        {"title": "Redis University — RU101", "platform": "Redis University", "url": "https://university.redis.com/courses/ru101/", "is_free": true},
+        {"title": "Redis Crash Course", "platform": "YouTube (Traversy Media)", "url": "https://www.youtube.com/watch?v=jgpVdJB2sKQ", "is_free": true}
+      ]
+    },
+    {
+      "id": "kafka",
+      "name": "Kafka",
+      "domain": "data",
+      "demand_score": 80,
+      "growth_rate": 6,
+      "avg_salary_lpa": 18,
+      "job_count_india": 16000,
+      "difficulty": "hard",
+      "learn_weeks": 7,
+      "adjacency": ["microservices", "docker"],
+      "roles": ["data-engineer", "backend-developer"],
+      "job_readiness_boost": 18,
+      "free_courses": [
+        {"title": "Apache Kafka Quickstart", "platform": "Kafka Official", "url": "https://kafka.apache.org/quickstart", "is_free": true},
+        {"title": "Apache Kafka Full Course", "platform": "YouTube (freeCodeCamp)", "url": "https://www.youtube.com/watch?v=ut5kET9n_eM", "is_free": true}
+      ]
+    }
+  ],
+  "roles": {
+    "data-scientist": {
+      "name": "Data Scientist",
+      "required_skills": ["python", "machine-learning", "sql", "pandas", "numpy"],
+      "avg_salary_lpa": 18
+    },
+    "backend-developer": {
+      "name": "Backend Developer",
+      "required_skills": ["python", "nodejs", "sql", "rest-api"],
+      "avg_salary_lpa": 12
+    },
+    "frontend-developer": {
+      "name": "Frontend Developer",
+      "required_skills": ["javascript", "react", "typescript"],
+      "avg_salary_lpa": 11
+    },
+    "devops-engineer": {
+      "name": "DevOps Engineer",
+      "required_skills": ["docker", "kubernetes", "ci-cd", "linux"],
+      "avg_salary_lpa": 18
+    },
+    "ml-engineer": {
+      "name": "ML Engineer",
+      "required_skills": ["python", "machine-learning", "pytorch", "scikit-learn"],
+      "avg_salary_lpa": 20
+    },
+    "full-stack-developer": {
+      "name": "Full Stack Developer",
+      "required_skills": ["javascript", "react", "nodejs", "sql"],
+      "avg_salary_lpa": 14
+    },
+    "cloud-architect": {
+      "name": "Cloud Architect",
+      "required_skills": ["aws", "docker", "kubernetes", "system-design"],
+      "avg_salary_lpa": 25
+    },
+    "android-developer": {
+      "name": "Android Developer",
+      "required_skills": ["kotlin", "flutter", "git"],
+      "avg_salary_lpa": 12
+    },
+    "data-analyst": {
+      "name": "Data Analyst",
+      "required_skills": ["sql", "pandas", "python"],
+      "avg_salary_lpa": 10
+    },
+    "software-engineer": {
+      "name": "Software Engineer",
+      "required_skills": ["python", "system-design", "git", "rest-api"],
+      "avg_salary_lpa": 15
+    }
+  }
+}
