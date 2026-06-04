@@ -10,7 +10,7 @@ import OpportunityCost from "./components/OpportunityCost";
 import AdvancedRoles from "./components/AdvancedRoles";
 import HistoryPanel from "./components/HistoryPanel";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API = import.meta.env.VITE_API_URL || "https://nextskill-backend-iiy6.onrender.com";
 
 const DOMAINS = ["all","programming","frontend","backend","database","devops","cloud","ai","data","mobile","tools","architecture","system"];
 

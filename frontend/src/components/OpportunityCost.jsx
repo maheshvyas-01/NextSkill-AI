@@ -1,8 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
-
+const API = "https://nextskill-backend-iiy6.onrender.com";
 function ROIBar({ value, max = 120, color }) {
   const pct = Math.min(100, Math.max(0, (value / max) * 100));
   return (

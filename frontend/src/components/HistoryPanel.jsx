@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API = "https://nextskill-backend-iiy6.onrender.com";
 
 const RISK_COLOR = {
   "Low Risk":    { bg: "bg-green-100",  text: "text-green-700" },
