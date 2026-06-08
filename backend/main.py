@@ -322,7 +322,7 @@ def compute_roi(skill_id, current_skills, target_role):
 # API ENDPOINTS
 # ─────────────────────────────────────────
 
-@app.get("/api/health")
+@app.api_route("/api/health", methods=["GET", "HEAD"])
 def health():
     return {"status": "ok", "skills_loaded": len(skills_map), "roles_loaded": len(roles_map)}
 
